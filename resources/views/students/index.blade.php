@@ -27,7 +27,7 @@
         @foreach ($students as $no=>$item)
         <tr>
         <td>{{ ++$no }}</td>
-        <td>{{ $item->student }}</td>
+        <td>{{ $item->name }}</td>
         <td>{{ $item->gender  }}</td>
         <td>{{ $item->absent  }}</td>
         <td>
